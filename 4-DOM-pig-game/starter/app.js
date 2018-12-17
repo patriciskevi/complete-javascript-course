@@ -42,7 +42,6 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     if (gameActive) {
         // ADD CURRENT SCORE TO GLOBAL SCORE
         scores[activePlayer] += roundScore;
-        console.log(scores);
 
         // UPDATE THE UI
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
