@@ -124,6 +124,29 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Lato;
+    text-align: center;
+    padding: 5px;
+    width: 260px;
+    text-transform: uppercase;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.final-score:focus {
+    outline: none;
+}
+
 button:hover {
     font-weight: 600;
 }
@@ -159,8 +182,7 @@ i {
     top: 467px;
 }
 
-.dice-1,
-.dice-2 {
+.dice {
     position: absolute;
     left: 44%;
     top: 178px;
@@ -169,7 +191,7 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.dice-2 {
+#dice-2 {
     left: 56%;
     top: 258px;
 }
