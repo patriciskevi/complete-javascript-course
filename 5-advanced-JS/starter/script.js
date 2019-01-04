@@ -290,7 +290,7 @@ class Question {
                 break;
             }
         }
-        console.log('Correct answer!')
+        console.log('Correct answer!');
     }
 
 }
